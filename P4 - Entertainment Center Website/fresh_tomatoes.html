@@ -1,0 +1,245 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Fresh Tomatoes!</title>
+
+    <!-- Bootstrap 3 -->
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap-theme.min.css">
+    <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+    <script src="https://netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+    <style type="text/css" media="screen">
+        body {
+            padding-top: 80px;
+        }
+        #trailer .modal-dialog {
+            margin-top: 200px;
+            width: 640px;
+            height: 480px;
+        }
+        .hanging-close {
+            position: absolute;
+            top: -12px;
+            right: -12px;
+            z-index: 9001;
+        }
+        #trailer-video {
+            width: 100%;
+            height: 100%;
+        }
+        .movie-tile {
+            text-transform: none;
+            text-align: center;
+            vertical-align: middle;
+            padding: 20px;
+            outline-width: 2px;
+            outline-color: black;
+            margin-top: 10px;
+        }
+        .movie-tile:hover {
+            background-color: #1E90FF;
+            cursor: pointer;
+        }
+        h2 {font-family: sans-serif;
+            font-size: 28px;
+            font-weight: 700;
+            font-style: normal;
+            letter-spacing: -1px;
+        }
+        h3 {font-family: sans-serif;
+            font-size: 20px;
+            font-weight: 400;
+        }
+        h4 {font-family: sans-serif;
+            font-size: 18px;
+            font-weight: 300;
+        }
+        h5 {font-family: sans-serif;
+            font-size: 14px;
+            font-weight: 300;
+        }
+        h6 {font-family: sans-serif;
+            font-size: 14px;
+            font-weight: 200;
+            color: grey;
+        }
+        .scale-media {
+            padding-bottom: 56.25%;
+            position: relative;
+        }
+        .scale-media iframe {
+            border: none;
+            height: 100%;
+            position: absolute;
+            width: 100%;
+            left: 0;
+            top: 0;
+            background-color: white;
+        }
+    </style>
+    <script type="text/javascript" charset="utf-8">
+        // Pause the video when the modal is closed
+        $(document).on('click', '.hanging-close, .modal-backdrop, .modal', function (event) {
+            // Remove the src so the player itself gets removed, as this is the only
+            // reliable way to ensure the video stops playing in IE
+            $("#trailer-video-container").empty();
+        });
+        // Start playing the video whenever the trailer modal is opened
+        $(document).on('click', '.movie-tile', function (event) {
+            var trailerYouTubeId = $(this).attr('data-trailer-youtube-id')
+            var sourceUrl = 'http://www.youtube.com/embed/' + trailerYouTubeId + '?autoplay=1&html5=1';
+            $("#trailer-video-container").empty().append($("<iframe></iframe>", {
+              'id': 'trailer-video',
+              'type': 'text-html',
+              'src': sourceUrl,
+              'frameborder': 0
+            }));
+        });
+        // Animate in the movies when the page loads
+        $(document).ready(function () {
+          $('.movie-tile').hide().first().show("fast", function showNext() {
+            $(this).next("div").show("fast", showNext);
+          });
+        });
+    </script>
+</head>
+
+  <body>
+    <!-- Trailer Video Modal -->
+    <div class="modal" id="trailer">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <a href="#" class="hanging-close" data-dismiss="modal" aria-hidden="true">
+            <img src="https://lh5.ggpht.com/v4-628SilF0HtHuHdu5EzxD7WRqOrrTIDi_MhEG6_qkNtUK5Wg7KPkofp_VJoF7RS2LhxwEFCO1ICHZlc-o_=s0#w=24&h=24"/>
+          </a>
+          <div class="scale-media" id="trailer-video-container">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Main Page Content -->
+    <div class="container">
+      <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="#">Flo's Movie Collection</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      
+<div class="col-md-6 col-lg-4 movie-tile text-center" data-trailer-youtube-id="LKFuXETZUsI" data-toggle="modal" data-target="#trailer">
+    <img src="https://i.pinimg.com/originals/17/80/86/178086caf4c4ed767b7fe294df1cf619.jpg" width="220" height="342">
+    <h2>Moana</h2>
+    <h3>2016</h3>
+    <h6>1h 47m</h6>
+    <h5>Auli'i Cravalho, Dwayne Johnson, Rachel House</h5>
+    <h4>In Ancient Polynesia, when a terrible curse incurred by the Demigod Maui reaches Moana's island, she answers the Ocean's call to seek out the Demigod to set things right.</h4>
+</div>
+
+<div class="col-md-6 col-lg-4 movie-tile text-center" data-trailer-youtube-id="zNCz4mQzfEI" data-toggle="modal" data-target="#trailer">
+    <img src="http://www.impawards.com/2017/posters/coco_ver15.jpg" width="220" height="342">
+    <h2>Coco</h2>
+    <h3>2017</h3>
+    <h6>1h 45m</h6>
+    <h5>Anthony Gonzalez, Gael Garcia Bernal, Benjamin Bratt</h5>
+    <h4>Aspiring musician Miguel, confronted with his family's ancestral ban on music, enters the Land of the Dead to find his great-great-grandfather, a legendary singer.</h4>
+</div>
+
+<div class="col-md-6 col-lg-4 movie-tile text-center" data-trailer-youtube-id="1HFv47QHWJU" data-toggle="modal" data-target="#trailer">
+    <img src="https://lumiere-a.akamaihd.net/v1/images/rich_insideout_header_mobile_ce11b9a6.jpeg?region=0,0,640,952" width="220" height="342">
+    <h2>Inside Out</h2>
+    <h3>2015</h3>
+    <h6>1h 35m</h6>
+    <h5>Amy Poehler, Bill Hader, Lewis Black</h5>
+    <h4>After young Riley is uprooted from her Midwest life and moved to San Francisco, her emotions - Joy, Fear, Anger, Disgust and Sadness - conflict on how best to navigate a new city, house, and school.</h4>
+</div>
+
+<div class="col-md-6 col-lg-4 movie-tile text-center" data-trailer-youtube-id="2zLkasScy7A" data-toggle="modal" data-target="#trailer">
+    <img src="https://posteritati.com/posters/000/000/000/567/finding-nemo-3d-sm-web.jpg" width="220" height="342">
+    <h2>Finding Nemo</h2>
+    <h3>2003</h3>
+    <h6>1h 40m</h6>
+    <h5>Albert Brooks, Ellen DeGeneres, Alexander Gould</h5>
+    <h4>After his son is captured in the Great Barrier Reef and taken to Sydney, a timid clownfish sets out on a journey to bring him home.</h4>
+</div>
+
+<div class="col-md-6 col-lg-4 movie-tile text-center" data-trailer-youtube-id="SApIKVq1iJQ" data-toggle="modal" data-target="#trailer">
+    <img src="http://cdn.miramax.com/media/_versions/13-going-on-30-500x733-v3_approved_poster_lg.jpg" width="220" height="342">
+    <h2>13 Going On 30</h2>
+    <h3>2004</h3>
+    <h6>1h 38m</h6>
+    <h5>Jennifer Garner, Mark Ruffalo, Judy Greer</h5>
+    <h4>A girl makes a wish on her thirteenth birthday, and wakes up the next day as a thirty-year-old woman.</h4>
+</div>
+
+<div class="col-md-6 col-lg-4 movie-tile text-center" data-trailer-youtube-id="VV1-pePln_I" data-toggle="modal" data-target="#trailer">
+    <img src="https://www.movieposter.com/posters/archive/main/57/MPW-28712" width="220" height="342">
+    <h2>27 Dresses</h2>
+    <h3>2008</h3>
+    <h6>1h 51m</h6>
+    <h5>Katherine Heigl, James Marsden, Malin Akerman</h5>
+    <h4>After serving as a bridesmaid 27 times, a young woman wrestles with the idea of standing by her sister's side as her sibling marries the man she's secretly in love with.</h4>
+</div>
+
+<div class="col-md-6 col-lg-4 movie-tile text-center" data-trailer-youtube-id="HrlQBsd8LsE" data-toggle="modal" data-target="#trailer">
+    <img src="https://www.movieposter.com/posters/archive/main/94/MPW-47017" width="220" height="342">
+    <h2>Leap Year</h2>
+    <h3>2010</h3>
+    <h6>1h 40m</h6>
+    <h5>Amy Adams, Matthew Goode, Adam Scott</h5>
+    <h4>Anna Brady travels to Dublin, Ireland because, according to Irish tradition, a man who receives a marriage proposal on a leap day must accept it.</h4>
+</div>
+
+<div class="col-md-6 col-lg-4 movie-tile text-center" data-trailer-youtube-id="lV7bvxRQGkc" data-toggle="modal" data-target="#trailer">
+    <img src="http://www.slashfilm.com/wp/wp-content/images/notintoyouposter.jpg" width="220" height="342">
+    <h2>He's Just Not That Into You</h2>
+    <h3>2009</h3>
+    <h6>2h 9m</h6>
+    <h5>Ginnifer Goodwin, Jennifer Aniston, Jennifer Connelly</h5>
+    <h4>This Baltimore-set movie of interconnecting story arcs deals with the challenges of reading or misreading human behavior.</h4>
+</div>
+
+<div class="col-md-6 col-lg-4 movie-tile text-center" data-trailer-youtube-id="GrlMYIYt-SI" data-toggle="modal" data-target="#trailer">
+    <img src="https://au.movieposter.com/posters/archive/main/68/MPW-34112" width="220" height="342">
+    <h2>Jumanji</h2>
+    <h3>1995</h3>
+    <h6>1h 44m</h6>
+    <h5>Robin Williams, Kirsten Dunst, Bonnie Hunt</h5>
+    <h4>When two kids find and play a magical board game, they release a man trapped for decades in it and a host of dangers that can only be stopped by finishing the game.</h4>
+</div>
+
+<div class="col-md-6 col-lg-4 movie-tile text-center" data-trailer-youtube-id="hOqVRwGVUkA" data-toggle="modal" data-target="#trailer">
+    <img src="https://static.rogerebert.com/uploads/movie/movie_poster/the-mask-1994/large_7plBoAhunhRVVmNCVMVo47Ede53.jpg" width="220" height="342">
+    <h2>The Mask</h2>
+    <h3>1994</h3>
+    <h6>1h 41m</h6>
+    <h5>Jim Carrey, Cameron Diaz, Peter Riegert</h5>
+    <h4>Bank clerk Stanley Ipkiss is transformed into a manic superhero when he wears a mysterious mask.</h4>
+</div>
+
+<div class="col-md-6 col-lg-4 movie-tile text-center" data-trailer-youtube-id="w3ugHP-yZXw" data-toggle="modal" data-target="#trailer">
+    <img src="https://images-na.ssl-images-amazon.com/images/I/91mjR0cmayL._SY550_.jpg" width="220" height="342">
+    <h2>Ghostbuster</h2>
+    <h3>1984</h3>
+    <h6>1h 45m</h6>
+    <h5>Bill Murray, Dan Aykroyd, Sigourney Weaver</h5>
+    <h4>Three former parapsychology professors set up shop as a unique ghost removal service.</h4>
+</div>
+
+<div class="col-md-6 col-lg-4 movie-tile text-center" data-trailer-youtube-id="M94yyfWy-KI" data-toggle="modal" data-target="#trailer">
+    <img src="https://static.wixstatic.com/media/af32ed_ba8665d4a5e64edf83da33a5bddba449~mv2.jpg/v1/fill/w_498,h_745,al_c,q_90/file.jpg" width="220" height="342">
+    <h2>Edward Scissorhands</h2>
+    <h3>1990</h3>
+    <h6>1h 45m</h6>
+    <h5>Johnny Depp, Winona Ryder, Dianne Wiest </h5>
+    <h4>A gentle man, with scissors for hands, is brought into a new community after living in isolation.</h4>
+</div>
+
+    </div>
+  </body>
+</html>
