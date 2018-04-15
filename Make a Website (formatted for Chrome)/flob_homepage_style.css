@@ -1,0 +1,350 @@
+/* This CSS has been validated using https://jigsaw.w3.org/css-validator/
+*/
+
+/* This is style for this whole html.
+This style will be uniform across the webpages
+to regulate the margin of web canvas. */
+html {
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  align-content: center;
+}
+
+/* This is style for header section.
+This style will be uniform across the webpages. */
+.page_header_container {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 25px;
+}
+#logo {
+	color: #5690b1;
+	font-family: sans-serif;
+	font-size: 40px;
+	font-weight: 400;
+	letter-spacing: 2px;
+  margin-right: auto;
+}
+.menu_container {
+  align-content: flex-end;
+  vertical-align: middle;
+  margin-top: 10px;
+}
+.current_menu {
+  text-decoration: none;
+  display: inline-block;
+	color: #303030;
+	font-family: sans-serif;
+	font-size: 20px;
+	font-weight: 700;
+	font-style: normal;
+	text-align: center;
+	vertical-align: middle;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.menu a {
+  text-decoration: none;
+  display: inline-block;
+	color: #a7a7a7;
+	font-family: sans-serif;
+	font-size: 20px;
+	font-weight: 700;
+	font-style: normal;
+	text-align: center;
+	vertical-align: middle;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.menu a:hover {
+	color: #5690b1;
+}
+
+/* This is style for the white boxes of the date stamp of content section. */
+.date_box_white {
+  text-decoration: none;
+	background-color: #fff;
+	width: 50px;
+  height: 70px;
+	font-family: sans-serif;
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-right: auto;
+  margin-bottom: auto;
+}
+.time_month_white {
+	display: block;
+	color: #303030;
+  font-family: sans-serif;
+	font-size: 11px;
+	font-weight: 300;
+	line-height: 22px;
+	letter-spacing: 0px;
+	font-style: normal;
+	vertical-align: top;
+	text-align: center;
+}
+.time_day_white {
+	display: block;	color: #303030;
+	font-family: sans-serif;
+  font-size: 26px;
+	font-weight: 700;
+	line-height: 26px;
+	letter-spacing: 0px;
+	font-style: normal;
+	vertical-align: middle;
+	text-align: center;
+}
+.time_year_white {
+	display: block;
+	color: #a7a7a7;
+	font-size: 11px;
+	font-weight: 300;
+	line-height: 22px;
+	letter-spacing: 0px;
+	font-style: normal;
+	vertical-align: bottom;
+	text-align: center;
+}
+
+/* This is style for the black boxes of the date stamp of content section. */
+.date_box_black {
+	background-color: #303030;
+	width: 50px;
+  height: 70px;
+	font-family: sans-serif;
+  margin-left: 0px;
+  margin-top: 0px;
+  margin-right: auto;
+  margin-bottom: auto;
+}
+.time_month_black {
+	display: block;
+	color: #fff;
+  font-family: sans-serif;
+	font-size: 11px;
+	font-weight: 300;
+	line-height: 22px;
+	letter-spacing: 0px;
+	font-style: normal;
+	vertical-align: top;
+	text-align: center;
+}
+.time_day_black {
+	display: block;
+	color: #fff;
+	font-family: sans-serif;
+  font-size: 26px;
+	font-weight: 700;
+	line-height: 26px;
+	letter-spacing: 0px;
+	font-style: normal;
+	vertical-align: middle;
+	text-align: center;
+}
+.time_year_black {
+	display: block;
+	color: #a7a7a7;
+	font-size: 11px;
+	font-weight: 300;
+	line-height: 22px;
+	letter-spacing: 0px;
+	font-style: normal;
+	vertical-align: bottom;
+	text-align: center;
+}
+
+/* ------------------------------------------------------------------------. */
+/* This is style for the boxes in content section. */
+.content_container {
+  display: inline-flex;
+  flex-flow: row wrap;
+  box-sizing:border-box;
+  justify-content: center;
+  align-items:stretch;
+}
+.subcontent_small {
+  display: inline-block;
+  text-align: center;
+  box-sizing: border-box;
+  align-self: flex-start;
+  width: 338px;
+  height: 320px;
+}
+.subcontent_small:hover {
+  opacity: 0.6;
+}
+.subcontent_small a{
+  text-decoration: none;
+}
+.subcontent_large {
+  display: inline-block;
+  text-align: center;
+  box-sizing: border-box;
+  align-self: flex-start;
+  width: 676px;
+  height: 320px;
+}
+.subcontent_large:hover {
+  opacity: 0.6;
+}
+.subcontent_large a {
+text-decoration: none;
+}
+.content_title {
+	color: #fff;
+	font-family: sans-serif;
+	font-size: 28px;
+	font-weight: 700;
+  line-height: 32px;
+	font-style: normal;
+	letter-spacing: -2px;
+	text-transform: none;
+	text-align: center;
+  vertical-align: middle;
+  margin-top: 150px;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-bottom: 20px;
+}
+.content_subtitle {
+	color: #fff;
+	font-family: sans-serif;
+	font-size: 12px;
+	font-weight: 300;
+	font-style: normal;
+	letter-spacing: 0px;
+	text-transform: capitalize;
+	text-align: center;
+  vertical-align: bottom;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-bottom: 60px
+}
+.content_editor {
+	color: #fff;
+	font-family: sans-serif;
+	font-size: 12px;
+	font-weight: 300;
+	font-style: normal;
+	letter-spacing: 0px;
+	text-transform: capitalize;
+	text-align: center;
+  vertical-align: bottom;
+  margin-right: 8px;
+}
+.content_folder {
+	color: #fff;
+	font-family: sans-serif;
+	font-size: 12px;
+	font-weight: 300;
+	font-style: normal;
+	letter-spacing: 0px;
+	text-transform: capitalize;
+	text-align: center;
+  vertical-align: bottom;
+  margin-left: 8px;
+}
+
+/* These are the materials for individual subcontent.
+All images are my private collections. */
+#subcontent1 {
+  background-image: url(bluelight.jpg);
+  background-size: contain;
+}
+#subcontent2 {
+  background-image: url(koreannotes.jpg);
+  background-size: contain;
+}
+#subcontent3 {
+  background-image: url(white_background.jpg);
+  background-size: contain;
+}
+  h1 {
+    display: block;
+    color: #3b3e41;
+    font-family: serif;
+    font-size: 60px;
+    line-height: 20px;
+    font-weight: 300;
+    letter-spacing: 3px;
+    text-align: center;
+    vertical-align: top;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 40px;
+  }
+  h2 {
+    display: block;
+    color: #5690b1;
+    font-family: sans-serif;
+    font-size: 14px;
+    line-height: 40px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-align: center;
+    vertical-align: text-top;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 0px
+  }
+  h3 {
+    display: block;
+    color: #3b3e41;
+    font-family: sans-serif;
+    font-size: 13px;
+    line-height: 0px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+#subcontent4 {
+  background-image: url(sakura.jpg);
+  background-size: contain;
+}
+#subcontent5 {
+  background-image: url(city.jpg);
+  background-size: contain;
+}
+#subcontent6 {
+  background-image: url(shrine.jpg);
+  background-size: contain;
+}
+#subcontent7 {
+  background-image: url(friendshippunch.jpg);
+  background-size: contain;
+}
+/* ------------------------------------------------------------------------. */
+
+/* This is style for the footer section. */
+.footer_container {
+  display: flex;
+	align-content:center;
+  vertical-align: middle;
+  justify-content: center;
+  margin-top: 35px;
+}
+.socialmedia {
+	display: inline-block;
+	color: #3b3e41;
+	font-family: sans-serif;
+  font-size: 14px;
+  line-height: 30px;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+	text-align: center;
+	vertical-align: middle;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.socialmedia:hover {
+  opacity: 0.3;
+}
+* {
+    box-sizing: border-box;
+}

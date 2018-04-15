@@ -1,0 +1,194 @@
+/* This CSS has been validated using https://jigsaw.w3.org/css-validator/
+*/
+
+/* This is style for this whole html.
+This style will be uniform across the webpages
+to regulate the margin of web canvas. */
+html {
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  align-content: center;
+}
+
+/* This is style for header section.
+This style will be uniform across the webpages. */
+.page_header_container {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 0px;
+}
+#logo {
+	color: #5690b1;
+	font-family: sans-serif;
+	font-size: 40px;
+	font-weight: 400;
+	letter-spacing: 2px;
+  margin-right: auto;
+}
+.menu_container {
+  align-content: flex-end;
+  vertical-align: middle;
+  margin-top: 10px;
+}
+.current_menu {
+  text-decoration: none;
+  display: inline-block;
+	color: #303030;
+	font-family: sans-serif;
+	font-size: 20px;
+	font-weight: 700;
+	font-style: normal;
+	text-align: center;
+	vertical-align: middle;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.menu a {
+  text-decoration: none;
+  display: inline-block;
+	color: #a7a7a7;
+	font-family: sans-serif;
+	font-size: 20px;
+	font-weight: 700;
+	font-style: normal;
+	text-align: center;
+	vertical-align: middle;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.menu a:hover {
+	color: #5690b1;
+}
+
+/* This is style for the title section. */
+.title_header {
+  display: flex;
+	flex-direction: inline-flex;
+}
+.title_container {
+  margin: auto;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+h1 {
+  display: block;
+  color: #3b3e41;
+  font-family: serif;
+  font-size: 60px;
+  line-height: 60px;
+  font-weight: 300;
+  letter-spacing: 3px;
+  text-align: center;
+  margin-bottom: 0px;
+}
+h2 {
+  display: block;
+  color: #5690b1;
+  font-family: sans-serif;
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  text-align: center;
+}
+h3 {
+  display: block;
+  color: #3b3e41;
+  font-family: sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  letter-spacing: 3px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* This is style for the content section. */
+.placeholder_container {
+  display: inline-flex;
+  flex-flow: row wrap;
+  box-sizing:border-box;
+  align-content: stretch;
+  justify-content: center;
+  margin-top: 60px;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 0px;
+  /*outline: solid;
+  outline-width: 2px;
+  outline-offset: 0px;
+  outline-color: black;*/
+}
+.placeholder_content_image {
+  text-align: center;
+  vertical-align: center;
+}
+.placeholder_content_text_container_style {
+  display: inline-block;
+  box-sizing: border-box;
+  align-self: center;
+  vertical-align: center;
+  min-width: 1028px;
+  max-width: auto;
+  height: 260px;
+  background: #fff;
+  background-blend-mode: lighten;
+}
+.placeholder_content_title {
+  display: block;
+  color: #3b3e41;
+  font-family: sans-serif;
+  font-size: 20px;
+  line-height: 20px;
+  font-weight: 600;
+  letter-spacing: 0px;
+  text-align: left;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  margin-left: 60px;
+  margin-right: 60px;
+}
+.placeholder_content_description {
+  display: block;
+  color: #3b3e41;
+  font-family: sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  text-align: left;
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+/* This is style for the footer section. */
+.footer_container {
+  display: flex;
+	align-content:center;
+  vertical-align: middle;
+  justify-content: center;
+  margin-top: 100px;
+}
+.socialmedia {
+	display: inline-block;
+	color: #3b3e41;
+	font-family: sans-serif;
+  font-size: 14px;
+  line-height: 30px;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+	text-align: center;
+	vertical-align: middle;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.socialmedia:hover {
+  opacity: 0.3;
+}
+* {
+    box-sizing: border-box;
+}

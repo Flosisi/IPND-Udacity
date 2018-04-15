@@ -1,0 +1,426 @@
+/* This CSS has been validated using https://jigsaw.w3.org/css-validator/
+*/
+
+/* This is style for this whole html.
+This style will be uniform across the webpages
+to regulate the margin of web canvas. */
+html {
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  align-content: center;
+}
+
+/* This is style for header section.
+This style will be uniform across the webpages. */
+.page_header_container {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 0px;
+}
+#logo {
+	color: #5690b1;
+	font-family: sans-serif;
+	font-size: 40px;
+	font-weight: 400;
+	letter-spacing: 2px;
+  margin-right: auto;
+}
+.menu_container {
+  align-content: flex-end;
+  vertical-align: middle;
+  margin-top: 10px;
+}
+.current_menu {
+  text-decoration: none;
+  display: inline-block;
+	color: #303030;
+	font-family: sans-serif;
+	font-size: 20px;
+	font-weight: 700;
+	font-style: normal;
+	text-align: center;
+	vertical-align: middle;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.menu a {
+  text-decoration: none;
+  display: inline-block;
+	color: #a7a7a7;
+	font-family: sans-serif;
+	font-size: 20px;
+	font-weight: 700;
+	font-style: normal;
+	text-align: center;
+	vertical-align: middle;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.menu a:hover {
+	color: #5690b1;
+}
+
+/* This is style for the title section. */
+.title_header {
+  display: flex;
+	flex-direction: row;
+}
+.title_container {
+  margin: auto;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+h1 {
+  display: block;
+  color: #3b3e41;
+  font-family: serif;
+  font-size: 60px;
+  line-height: 60px;
+  font-weight: 300;
+  letter-spacing: 3px;
+  text-align: center;
+  margin-bottom: 0px;
+}
+h2 {
+  display: block;
+  color: #5690b1;
+  font-family: sans-serif;
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  text-align: center;
+}
+h3 {
+  display: block;
+  color: #3b3e41;
+  font-family: sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  letter-spacing: 3px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* This is style for the content section. */
+h4 {
+  font-family: sans-serif;
+  font-size: 20px;
+  line-height: 20px;
+  font-weight: 600;
+  letter-spacing: 0px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+h4:hover {
+	color: #5690b1;
+}
+
+/* This is style for the general container. */
+.portfolio_container {
+  display: inline-flex;
+  flex-flow: row wrap;
+  box-sizing:border-box;
+  align-content: stretch;
+  justify-content: center;
+  margin-top: 40px;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 0px;
+  outline: solid;
+  outline-width: 2px;
+  outline-offset: 0px;
+  outline-color: black;
+}
+.portfolio_content_image {
+  display: block;
+  width: 288px;
+  height: 256px;
+}
+.portfolio_content_image:hover {
+  opacity: 0.6;
+}
+
+/* This is style for the Style_1. */
+.portfolio_content_text_container_style1 {
+  display: inline-block;
+  box-sizing: border-box;
+  align-self: center;
+  vertical-align: center;
+  width: 1028px;
+  height: 260px;
+  background: black;
+  background-blend-mode: lighten;
+}
+.portfolio_content_title1 a {
+  display: block;
+  color: #fff;
+  text-align: left;
+  text-decoration: none;
+}
+.portfolio_content_title1 a:hover {
+	color: #5690b1;
+}
+.portfolio_content_subtitle1 {
+	color: #a7a7a7;
+	font-family: sans-serif;
+	font-size: 12px;
+	font-weight: 300;
+	font-style: normal;
+	letter-spacing: 0px;
+	text-transform: capitalize;
+	text-align: left;
+  vertical-align: bottom;
+  margin-left: 20px;
+  margin-right: 40px;
+  margin-bottom: 20px
+}
+.portfolio_content_editor1 {
+	color: #a7a7a7;
+	font-family: sans-serif;
+	font-size: 12px;
+	font-weight: 300;
+	font-style: normal;
+	letter-spacing: 0px;
+	text-transform: capitalize;
+	text-align: left;
+  vertical-align: bottom;
+  margin-right: 8px;
+}
+.portfolio_content_folder1 {
+	color: #a7a7a7;
+	font-family: sans-serif;
+	font-size: 12px;
+	font-weight: 300;
+	letter-spacing: 0px;
+  font-style: normal;
+	text-transform: capitalize;
+	text-align: center;
+  vertical-align: bottom;
+  margin-left: 8px;
+}
+.portfolio_content_description1 {
+  display: block;
+  color: #fff;
+  font-family: sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  text-align: left;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+/* This is style for the Style_2. */
+.portfolio_content_text_container_style2 {
+  display: inline-block;
+  box-sizing: border-box;
+  align-self: center;
+  vertical-align: top;
+  width: 1028px;
+  height: 260px;
+  background: white;
+  background-blend-mode: lighten;
+}
+.portfolio_content_title2 a {
+  display: block;
+  color: #3b3e41;
+  text-align: right;
+  text-decoration: none;
+}
+.portfolio_content_subtitle2 {
+	color: #5690b1;
+	font-family: sans-serif;
+	font-size: 12px;
+	font-weight: 300;
+	font-style: normal;
+	letter-spacing: 0px;
+	text-transform: capitalize;
+	text-align: right;
+  vertical-align: bottom;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px
+}
+.portfolio_content_editor2 {
+	color: #5690b1;
+	font-family: sans-serif;
+	font-size: 12px;
+	font-weight: 300;
+	font-style: normal;
+	letter-spacing: 0px;
+	text-transform: capitalize;
+	text-align: right;
+  vertical-align: bottom;
+  margin-right: 8px;
+}
+.portfolio_content_folder2 {
+	color: #5690b1;
+	font-family: sans-serif;
+	font-size: 12px;
+	font-weight: 300;
+	font-style: normal;
+	letter-spacing: 0px;
+	text-transform: capitalize;
+	text-align: right;
+  vertical-align: bottom;
+  margin-left: 8px;
+}
+.portfolio_content_description2 {
+  display: block;
+  color: #3b3e41;
+  font-family: sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  text-align: right;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.portfolio_tag {
+  display: block;
+  color: #3b3e41;
+  font-family: sans-serif;
+  font-size: 20px;
+  line-height: 20px;
+  font-weight: 600;
+  letter-spacing: 3px;
+  text-align: center;
+  vertical-align: middle;
+  text-decoration: none;
+  margin-top: 60px;
+  margin-bottom: 20px;
+}
+
+/* This is style for the Other folders in the portfolio. */
+.portfolio_container_others {
+  display: inline-flex;
+  flex-flow: row wrap;
+  box-sizing:border-box;
+  align-content: stretch;
+  justify-content: center;
+  margin-top: 40px;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 0px;
+}
+.portfolio_content_others {
+  display: block;
+  color: #fff;
+  font-family: sans-serif;
+  font-size: 20px;
+  line-height: 20px;
+  font-weight: 600;
+  letter-spacing: 0px;
+  text-align: left;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  margin-right: 40px;
+}
+.portfolio_content_image_others a {
+  display: inline-block;
+  text-align: center;
+  box-sizing: border-box;
+  align-self: flex-start;
+  color: #a7a7a7;
+	font-family: sans-serif;
+	font-size: 24px;
+	font-weight: 400;
+  line-height: 24px;
+	font-style: normal;
+	letter-spacing: -2px;
+	text-transform: none;
+  text-decoration: none;
+	text-align: center;
+  vertical-align: middle;
+  width: 263px;
+  height: 180px;
+  /*outline: solid;
+  outline-width: 2px;
+  outline-offset: 0px;
+  outline-color: black;*/
+}
+.portfolio_content_image_others:hover {
+   transition: 0s ease;
+   opacity: 0.6;
+}
+.categories {
+  display: block;
+  color: #fff;
+  text-shadow: 2px 2px 4px #000000;
+  font-family: sans-serif;
+  font-size: 20px;
+  line-height: 20px;
+  font-weight: 600;
+  letter-spacing: 0px;
+  text-align: center;
+  vertical-align: middle;
+  text-decoration: none;
+  margin-top: 80px;
+}
+.categories:hover {
+   transition: 0s ease;
+   opacity: 1;
+}
+
+
+/* These are the materials for individual folder selection. */
+
+#folder1 {
+  background-image: url(chart1.png); /*Image was taken from InformationisBeautiful.net */
+  background-size: contain;
+}
+#folder2 {
+  background-image: url(chart2.png); /*Image was taken from InformationisBeautiful.net */
+  background-size: contain;
+}
+#folder3 {
+  background-image: url(chart3.png); /*Image was taken from InformationisBeautiful.net */
+  background-size: contain;
+}
+#folder4 {
+  background-image: url(project.jpg); /*Image is a private collection */
+  background-size: contain;
+}
+#folder5 {
+  background-image: url(contact_us.jpg); /*Image is a private collection */
+  background-size: contain;
+}
+
+/* This is style for the footer section. */
+.footer_container {
+  display: flex;
+	align-content:center;
+  vertical-align: middle;
+  justify-content: center;
+  margin-top: 60px;
+}
+.socialmedia {
+	display: inline-block;
+	color: #3b3e41;
+	font-family: sans-serif;
+  font-size: 14px;
+  line-height: 30px;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+	text-align: center;
+	vertical-align: middle;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.socialmedia:hover {
+  opacity: 0.3;
+}
+* {
+    box-sizing: border-box;
+}

@@ -1,0 +1,181 @@
+/* This CSS has been validated using https://jigsaw.w3.org/css-validator/
+*/
+
+/* This is style for this whole html.
+This style will be uniform across the webpages
+to regulate the margin of web canvas. */
+html {
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  align-content: center;
+}
+
+/* This is style for header section.
+This style will be uniform across the webpages. */
+.page_header_container {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 0px;
+}
+#logo {
+	color: #5690b1;
+	font-family: sans-serif;
+	font-size: 40px;
+	font-weight: 400;
+	letter-spacing: 2px;
+  margin-right: auto;
+}
+.menu_container {
+  align-content: flex-end;
+  vertical-align: middle;
+  margin-top: 10px;
+}
+.current_menu {
+  text-decoration: none;
+  display: inline-block;
+	color: #303030;
+	font-family: sans-serif;
+	font-size: 20px;
+	font-weight: 700;
+	font-style: normal;
+	text-align: center;
+	vertical-align: middle;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.menu a {
+  text-decoration: none;
+  display: inline-block;
+	color: #a7a7a7;
+	font-family: sans-serif;
+	font-size: 20px;
+	font-weight: 700;
+	font-style: normal;
+	text-align: center;
+	vertical-align: middle;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.menu a:hover {
+	color: #5690b1;
+}
+
+/* This is style for the title section. */
+.title_header {
+  display: flex;
+	flex-direction: row;
+  background-image: url(contact_us.jpg);
+  margin-top: 25px;
+  margin-bottom: 40px;
+}
+.title_container {
+  margin: auto;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+h1 {
+  display: block;
+  color: #3b3e41;
+  font-family: serif;
+  font-size: 60px;
+  line-height: 60px;
+  font-weight: 300;
+  letter-spacing: 3px;
+  text-align: center;
+  margin-bottom: 0px;
+}
+h2 {
+  display: block;
+  color: #5690b1;
+  font-family: sans-serif;
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  text-align: center;
+}
+h3 {
+  display: block;
+  color: #3b3e41;
+  font-family: sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  letter-spacing: 3px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+/* This is style for the input section.*/
+.contact_form_container {
+  background-color: #f2f2f2;
+  padding: 20px;
+  border-radius: 6px;
+}
+label {
+  color: #3b3e41;
+  font-family: sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  letter-spacing: 0px;
+}
+input[type=text], select, textarea {
+  font-family: sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  letter-spacing: 0px;
+  color: #3b3e41;
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical
+}
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* This is style for the footer section. */
+.footer_container {
+  display: flex;
+	align-content:center;
+  vertical-align: middle;
+  justify-content: center;
+  margin-top: 60px;
+}
+.socialmedia {
+  display: inline-block;
+	color: #3b3e41;
+	font-family: sans-serif;
+  font-size: 14px;
+  line-height: 30px;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+	text-align: center;
+	vertical-align: middle;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.socialmedia:hover {
+  opacity: 0.3;
+}
+* {
+    box-sizing: border-box;
+}

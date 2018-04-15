@@ -1,0 +1,338 @@
+/* This CSS has been validated using https://jigsaw.w3.org/css-validator/
+*/
+
+/* This is style for this whole html.
+This style will be uniform across the webpages
+to regulate the margin of web canvas. */
+html {
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  align-content: center;
+}
+
+/* This is style for header section.
+This style will be uniform across the webpages. */
+.page_header_container {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 25px;
+}
+#logo {
+	color: #5690b1;
+	font-family: sans-serif;
+	font-size: 40px;
+	font-weight: 400;
+	letter-spacing: 2px;
+  margin-right: auto;
+}
+.menu_container {
+  align-content: flex-end;
+  vertical-align: middle;
+  margin-top: 10px;
+}
+.current_menu {
+  text-decoration: none;
+  display: inline-block;
+	color: #303030;
+	font-family: sans-serif;
+	font-size: 20px;
+	font-weight: 700;
+	font-style: normal;
+	text-align: center;
+	vertical-align: middle;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.menu a {
+  text-decoration: none;
+  display: inline-block;
+	color: #a7a7a7;
+	font-family: sans-serif;
+	font-size: 20px;
+	font-weight: 700;
+	font-style: normal;
+	text-align: center;
+	vertical-align: middle;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.menu a:hover {
+	color: #5690b1;
+}
+
+/* This is the style for the date stamp box. */
+.date_box_black {
+	background-color: #303030;
+	width: 60px;
+  height: 80px;
+	font-family: sans-serif;
+}
+.time_month_black {
+	display: block;
+	color: #fff;
+  font-family: sans-serif;
+	font-size: 11px;
+	font-weight: 300;
+	line-height: 26px;
+	letter-spacing: 0px;
+	font-style: normal;
+	vertical-align: top;
+	text-align: center;
+  margin-top: 1px;
+}
+.time_day_black {
+	display: block;
+	color: #fff;
+	font-family: sans-serif;
+  font-size: 26px;
+	font-weight: 700;
+	line-height: 26px;
+	letter-spacing: 0px;
+	font-style: normal;
+	vertical-align: middle;
+	text-align: center;
+}
+.time_year_black {
+	display: block;
+	color: #a7a7a7;
+	font-size: 11px;
+	font-weight: 300;
+	line-height: 22px;
+	letter-spacing: 0px;
+	font-style: normal;
+	vertical-align: bottom;
+	text-align: center;
+}
+
+/* This is style for the title section. */
+.title_header {
+  display: flex;
+	flex-direction: row;
+}
+.title_container {
+  margin: auto;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+h1 {
+  display: block;
+  color: #3b3e41;
+  font-family: serif;
+  font-size: 60px;
+  line-height: 60px;
+  font-weight: 300;
+  letter-spacing: 3px;
+  text-align: center;
+  margin-bottom: 0px;
+}
+h2 {
+  display: block;
+  color: #5690b1;
+  font-family: sans-serif;
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  text-align: center;
+  text-shadow: 2px 2px 4px #fff;
+}
+h3 {
+  display: block;
+  color: #3b3e41;
+  font-family: sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  letter-spacing: 3px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+
+/* This is style for the Other folder in the portfolio. */
+#blog_content_container{
+  display: inline-flex;
+  flex-flow: row wrap;
+  box-sizing:border-box;
+  align-content: stretch;
+}
+#blog_content_others{
+  display: inline-block;
+  align-self: flex-start;
+  flex-flow: column wrap;
+  font-family: sans-serif;
+  font-size: 20px;
+  line-height: 20px;
+  font-weight: 600;
+  letter-spacing: 0px;
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 40px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+#blog_mainbody_container{
+  display: inline-block;
+  align-self: flex-start;
+  flex-flow: column wrap;
+  max-width: 80%;
+  font-family: sans-serif;
+  font-size: 20px;
+  line-height: 20px;
+  font-weight: 600;
+  letter-spacing: 0px;
+  text-align: left;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+#blog_paragraph_others {
+  display: inline-block;
+  align-self: flex-start;
+  flex-flow: column wrap;
+  font-family: sans-serif;
+  font-size: 20px;
+  line-height: 20px;
+  font-weight: 600;
+  letter-spacing: 0px;
+  text-align: left;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+.blog_content_image_others a {
+  display: inline-block;
+  text-align: center;
+  box-sizing: border-box;
+  align-self: flex-start;
+  color: #a7a7a7;
+	font-family: sans-serif;
+	font-size: 24px;
+	font-weight: 400;
+  line-height: 24px;
+	font-style: normal;
+	letter-spacing: -2px;
+	text-transform: none;
+  text-decoration: none;
+	text-align: center;
+  vertical-align: middle;
+  width: 220px;
+  height: 140px;
+}
+.blog_content_image_others {
+  opacity: 0.9;
+  margin-bottom: 0px;
+  margin-right: 40px;
+}
+.blog_content_image_others:hover {
+   transition: 0s ease;
+   opacity: 0.6;
+}
+.blog_categories {
+  display: block;
+  color: #fff;
+  text-shadow: 2px 2px 4px #000000;
+  font-family: sans-serif;
+  font-size: 20px;
+  line-height: 20px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-align: center;
+  min-width: 180px;
+  vertical-align: middle;
+  text-decoration: none;
+  margin-top: 60px;
+}
+
+/* These are the materials for individual folder selection.
+Images are private collection*/
+
+#blog_folder1 {
+  background-image: url(koreannotes.jpg);
+  background-size:cover;
+}
+#blog_folder2 {
+  background-image: url(blog4.jpg);
+  background-size: cover;
+}
+#blog_folder3 {
+  background-image: url(blog1.jpg);
+  background-size: cover;
+}
+#blog_folder4 {
+  background-image: url(blog5.jpg);
+  background-size: cover;
+}
+#blog_folder5 {
+  background-image: url(blog3.jpg);
+  background-size: cover;
+}
+#blog_folder6 {
+  background-image: url(blog2.jpg);
+  background-size: cover;
+}
+
+/* This is style for the paragraph section. */
+.blog_paragraph {
+  color: #3b3e41;
+  font-family: sans-serif;
+  font-size: 14px;
+  line-height: 30px;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  text-align: justify;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.blog_highlight {
+  color: #3b3e41;
+  font-family: serif;
+  font-size: 30px;
+  line-height: 60px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 0px;
+}
+.blog_paragraph_others {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  box-sizing: border-box;
+  align-self: flex-start;
+}
+
+/* This is style for the footer section. */
+.footer_container {
+  display: flex;
+	align-content:center;
+  vertical-align: middle;
+  justify-content: center;
+  margin-top: 60px;
+}
+.socialmedia {
+	display: inline-block;
+	color: #3b3e41;
+	font-family: sans-serif;
+  font-size: 14px;
+  line-height: 30px;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+	text-align: center;
+	vertical-align: middle;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.socialmedia:hover {
+  opacity: 0.6;
+}
+* {
+    box-sizing: border-box;
+}
