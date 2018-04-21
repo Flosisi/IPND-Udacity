@@ -11,21 +11,27 @@ Key learnings:
 - Team collaboration in Slack
 
 ## Stage 1: Make a Web Page
-Key Learnings:
+Key learnings:
 - Creating a structured HTML document (page structure, visual styling, designing with boxes)
 - Adding CSS for style (divs-spans-classes, semantic tags, DevTools)
 - Debugging HTML and CSS code
-Project:
+<br>Showcase project <a href="https://github.com/Flosisi/udacity-ipnd/tree/master/P2%20-%20Make%20a%20Website%20(formatted%20for%20Chrome)">here<a/>. 
 
-> a full webpage 
+> a fully functional webpage with top menu, inline and block elements, hover, contact form and original images and design.
 
 ## Stage 2: Code Your Own Quiz
+Key learnings:
+<br>Showcase project here.
 
 ## Stage 3: Create a Movie Website
+Key learnings: 
+<br>Showcase project here.
 
 ## Stage 4: Discover Your Path
+Key learnings:
 
 ## Stage 5: Chosen path - Data Analytics
-
+Key learnings:
+<br>Showcase project here.
 
 *Estimation of total hours the average student may take to complete all required coursework, including lecture and project time.
