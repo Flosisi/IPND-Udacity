@@ -46,6 +46,7 @@ Key learnings:
 ## Stage 4: Discover Your Path
 Key learnings: A quick overview of various paths in programming, what are the distinctions between them, and how the roles interact with each others. The paths that were explored are Front-End Programming, Back-End Programming, Mobile Programming, and Data Analysis Programming.
 <br>
+<br>
 
 ## Stage 5: Chosen path - Data Analytics Programming
 Key learnings:
