@@ -59,4 +59,4 @@ Key learnings:
 <br>Showcase project: <a href="udacity-ipnd/P6 - IPND-DA-Project-Final.ipynb">How Lifestyle Related to Life Expectancies</a>
 > Posed 5 pairing questions from 5 data sets from GapMinder. Analyses are done using NumPy and Pandas 1D and 2D, and then visualised with Matplotlib and Seaborn. Processes and findings are documented methodologically in Jupyter Notebook. One most surprising finding: "Apparently, alcohol might be not so bad after all!"
 <br>
-*Estimation of total hours the average student may take to complete all required coursework, including lecture and project time.
+*Udacity's estimation of total hours the average student may take to complete all required coursework, including lecture and project time.
