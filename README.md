@@ -3,6 +3,7 @@
 As a career changer that come from a non-computer science background, I took this 190 hours* nanodegree as my first step towards coding. 
 In this program, I've learned the following modules and created projects related to those topics.
 <br>
+<br>
 
 ## Stage 0: Getting Started with HTML
 Key learnings: 
