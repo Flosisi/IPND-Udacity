@@ -4,7 +4,7 @@ As a career changer that come from a non-computer science background, I took thi
 In this program, I've learned the following modules and created projects related to those topics.
 
 
-## Stage 0: Introduction
+## Stage 0: Getting Started with HTML
 Key learnings: 
 - High level overview of the World Wide Web (browsers, HTTP requests, Servers, the Internet)
 - HTML basics (tags, Syntax, Whitespace, Inline vs Block elements, HTML document structure) 
@@ -17,8 +17,8 @@ Key learnings:
 - Adding CSS for style (divs-spans-classes, semantic tags, DevTools)
 - Debugging HTML and CSS code
 
-<br>Showcase project: <a href="https://github.com/Flosisi/udacity-ipnd/tree/master/P2%20-%20Make%20a%20Website%20(formatted%20for%20Chrome)">/flab/<a/>
-> a fully functional webpage with top menu, inline and block elements, hover, contact form and original images and design.
+<br>Showcase project: <a href="https://github.com/Flosisi/udacity-ipnd/tree/master/P2%20-%20Make%20a%20Website%20(formatted%20for%20Chrome)">/flab/ website<a/>
+> a fully functional website with top menu, inline and block elements, hover, contact form and original images and design.
 <br>
   
 ## Stage 2: Code Your Own Quiz
@@ -29,18 +29,18 @@ Key learnings:
 - Debugging strategies
 
 <br>Showcase project: <a href="udacity-ipnd/P3 - Guess The Words - Game.py">Guess The Word!</a>
-> a fill-in-the blank style quiz with 3 difficulty levels. The users can choose their own number of tries.
+> a fill-in-the blank style quiz with 3 difficulties level. The users can choose their own number of tries. This project leveraged the power of functions in Python and automated repetitive tasks that can be done on a computer.
 <br>
 
-## Stage 3: Create a Movie Website
+## Stage 3: The Power of Abstraction
 Key learnings: 
-- Import modules into Python
+- Import modules and packages into Python
 - Create a program using Python modules: time and webbrowser
 - Understanding Classes and Objects in Python
 - Advance Class Making (class variables, inheritance, reusing methods, method overloading)
 
 <br>Showcase project: <a href="https://github.com/Flosisi/udacity-ipnd/tree/master/P4%20-%20Entertainment%20Center%20Website">Entertainment Centre Website</a>
-> a static web page generated from a set of python codes that allows visitors to browse the movies and watch the trailer directly on the webpage by launching a video player.
+> a static web page generated from a set of python codes that allows visitors to browse the movies and watch the trailer directly on the webpage by launching a video player. This project demonstrates knowledge of Object Oriented Programming.
 <br>
 
 ## Stage 4: Discover Your Path
@@ -49,12 +49,12 @@ Key learnings: A quick overview of various paths in programming, what are the di
 
 ## Stage 5: Chosen path - Data Analytics Programming
 Key learnings:
-- Using Anaconda and Jupyter Notebook
+- Set up and use Anaconda and Jupyter Notebook
 - Python data type: Dictionaries
 - Data Analysis processes (problem statement, data acquisition, data wrangling, data exploration, conclusion phase, communicate analysis and findings) 
 - NumPy, Pandas, Matplotlib, and Seaborn for 1D and 2D data
 
 <br>Showcase project: <a href="udacity-ipnd/P6 - IPND-DA-Project-Final.ipynb">How Lifestyle Related to Life Expectancies</a>
-> Posed 5 pairing questions from 5 data sets from GapMinder. Analyses are done using NumPy and Pandas 1D and 2D, and then visualised with Matplotlib and Seaborn. Processes and findings are documented methodologically in Jupyter Notebook. One most surprising finding: "Apparently, alcohol might not be that bad at all!"
+> Posed 5 pairing questions from 5 data sets from GapMinder. Analyses are done using NumPy and Pandas 1D and 2D, and then visualised with Matplotlib and Seaborn. Processes and findings are documented methodologically in Jupyter Notebook. One most surprising finding: "Apparently, alcohol might be not so bad after all!"
 <br>
 *Estimation of total hours the average student may take to complete all required coursework, including lecture and project time.
